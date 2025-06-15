@@ -1,0 +1,63 @@
+/* Goals.css */
+.goals-page {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f0f8ff, #e0f7fa);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.goal-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.goal-input input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.goal-input button {
+  padding: 12px 20px;
+  background-color: #00c853;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.goal-input button:hover {
+  background-color: #00a543;
+}
+
+.goal-list {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-list li {
+  background: white;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.goal-list li.completed label {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.goal-list input[type="checkbox"] {
+  margin-right: 12px;
+  transform: scale(1.2);
+}

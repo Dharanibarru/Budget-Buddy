@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #4b0082;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+.nav-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-buttons button:hover {
+  background-color: #ff1493;
+}
